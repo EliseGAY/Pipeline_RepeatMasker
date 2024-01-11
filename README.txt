@@ -14,6 +14,7 @@ Long runs expected, you might prefer to dispatch the three steps in three differ
 # Input
 #------#
 Genome_file : Genome in fasta format
+My_Genome_Subset.fasta : The first scaffolds/chr of the genome to build the de novo database of repeat elements. No need to run on the entire genome to get the repeat database
 
 # Methods :
 #----------#
