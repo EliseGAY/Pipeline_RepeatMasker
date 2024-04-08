@@ -1,7 +1,7 @@
 #======================#
 # 10/2023
 # Elise GAY
-# Run Variant Calling
+# Run Repeat Masker
 # please inform the authors before sharing
 #======================#
 
