@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 #SBATCH -V
-#SBATCH -o Repeats_detection.out
-#SBATCH -e Repeats_detection.err
+#SBATCH -o Repeats_detection_db.out
+#SBATCH -e Repeats_detection_db.err
 #SBATCH -J Repeats_detection
-#SBATCH --time=96:00:00
+#SBATCH --time=56:00:00
 #SBATCH --cpus-per-task=2
 #SBATCH --mem-per-cpu=10G
 #SBATCH --tasks-per-node=4
@@ -12,11 +12,11 @@
 #==================#
 # Import Module
 #==================#
-module load bioinfo/RepeatMasker-4.1.0
-module load bioinfo/WuBlast2.0
-module load bioinfo/RMBlast-2.10.0
-module load bioinfo/RepeatModeler-2.0.1
-module load system/Python-3.6.3
+module load devel/python/Python-3.6.3
+module load bioinfo/RepeatMasker/4.1.5
+module load bioinfo/RepeatModeler/2.0.4
+module load bioinfo/RMBlast/2.13.0
+module load bioinfo/WuBlast/2.0a19
 
 #==================#
 # Infos
