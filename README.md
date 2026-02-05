@@ -6,6 +6,8 @@
 This script was created to detect repeat regions and generate a BED file of repeat regions in a genome.  
 Long runtimes are expected; you may prefer to split the pipeline into three separate scripts and launch them independently.
 
+Adatped to run in genotoul HPC 
+
 ## Input
 ------
 
